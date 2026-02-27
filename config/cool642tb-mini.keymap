@@ -43,10 +43,10 @@
 
         FUNCTION {
             bindings = <
-&kp N1    &kp N2     &kp N3     &kp N4          &kp N5                                          &kp N6     &kp N7    &kp N8    &kp N9        &kp N0
-&kp PLUS  &kp MINUS  &kp ASTRK  &kp SLASH       &kp EQUAL       &kp UNDER            &kp LG(C)  &kp ENTER  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT
-&kp F1    &kp F2     &kp F3     &kp F4          &kp UP_ARROW    &trans               &kp LG(V)  &kp F6     &kp F7    &kp F8    &kp F9        &kp F10
-&trans    &trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans     &trans                                       &bt BT_CLR
+&kp N1         &kp N2       &kp N3          &kp N4          &kp N5                                          &kp N6     &kp N7    &kp N8    &kp N9        &kp N0
+&kp AT_SIGN    &kp MINUS    &kp ASTRK       &kp SLASH       &kp EQUAL       &kp UNDER            &kp LG(C)  &kp ENTER  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT
+&kp HASH       &kp COLON    &kp SQT         &kp F4          &kp UP_ARROW    &trans               &kp LG(V)  &kp F6     &kp F7    &kp F8    &kp F9        &kp F10
+&kp AMPERSAND  &kp PERCENT  &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans     &trans                                       &bt BT_CLR
             >;
         };
 
