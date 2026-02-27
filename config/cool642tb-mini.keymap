@@ -51,10 +51,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp N7        &kp N8        &kp N9        &kp PLUS    &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans      &kp DEL  &kp N0                                                &trans
+&trans  &trans  &trans  &trans  &kp K_PLAY_PAUSE                       &kp N7        &kp N8        &kp N9        &kp PLUS    &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans            &trans      &trans   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &kp SLASH
+&trans  &trans  &trans  &trans  &trans            &trans      &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans            &trans      &kp DEL  &kp N0                                                &trans
             >;
         };
 
@@ -71,10 +71,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans              &trans               &trans  &trans  &trans                      &trans  &kp LG(W)  &kp LG(LA(LEFT_ARROW))  &kp LG(T)      &kp LG(LA(RIGHT_ARROW))
+&trans              &trans               &trans  &trans  &trans  &trans      &trans  &trans  &trans     &mkp MB1                &trans         &mkp MB2
+&trans              &trans               &trans  &trans  &trans  &trans      &trans  &trans  &trans     &kp LG(LEFT_ARROW)      &kp LG(LS(R))  &kp LG(RIGHT_ARROW)
+&kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans  &trans  &trans      &trans  &trans                                                    &trans
             >;
         };
 
