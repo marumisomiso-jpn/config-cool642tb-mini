@@ -71,10 +71,10 @@
 
         MOUSE {
             bindings = <
-&trans              &trans               &trans  &trans  &trans                      &trans  &kp LG(W)  &kp LG(LA(LEFT_ARROW))  &kp LG(T)      &kp LG(LA(RIGHT_ARROW))
-&trans              &trans               &trans  &trans  &trans  &trans      &trans  &trans  &trans     &mkp MB1                &trans         &mkp MB2
-&trans              &trans               &trans  &trans  &trans  &trans      &trans  &trans  &trans     &kp LG(LEFT_ARROW)      &kp LG(LS(R))  &kp LG(RIGHT_ARROW)
-&kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans  &trans  &trans      &trans  &trans                                                    &trans
+&trans  &trans  &trans  &trans  &trans                                               &trans  &kp LG(W)  &kp LG(LA(LEFT_ARROW))  &kp LG(T)      &kp LG(LA(RIGHT_ARROW))
+&trans  &trans  &trans  &trans  &trans              &trans                   &trans  &trans  &trans     &mkp MB1                &trans         &mkp MB2
+&trans  &trans  &trans  &trans  &trans              &trans                   &trans  &trans  &trans     &kp LG(LEFT_ARROW)      &kp LG(LS(R))  &kp LG(RIGHT_ARROW)
+&trans  &trans  &trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)      &trans  &trans                                                    &trans
             >;
         };
 
