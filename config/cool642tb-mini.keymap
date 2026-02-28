@@ -48,6 +48,8 @@
 &kp HASH       &kp COLON         &kp SQT            &kp UNDER             &kp UP_ARROW           &trans               &kp K_PASTE  &kp K_PASTE      &trans        &trans         &trans            &trans
 &kp AMPERSAND  &kp PERCENT       &kp LEFT_SHIFT     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW      &trans       &trans                                                          &bt BT_CLR
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
         };
 
         NUM {
