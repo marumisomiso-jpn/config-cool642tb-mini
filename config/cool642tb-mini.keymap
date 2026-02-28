@@ -33,9 +33,9 @@
         default_layer {
             bindings = <
 &kp Q               &kp W                 &kp E         &kp R           &kp T                                                   &kp Y        &kp U    &kp I      &kp O    &kp P
-&kp A               &kp S                 &kp D         &kp F           &kp G        &kp LC(Y)             &kp K_COPY           &kp H        &lt 5 J  &kp K      &lt 5 L  &kp MINUS
-&mt LEFT_CONTROL Z  &kp X                 &kp C         &kp V           &kp B        &kp LC(UP_ARROW)      &kp K_PASTE          &kp N        &kp M    &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB             &mt LG(SPACE) ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp LEFT_GUI          &mt RSHFT BACKSPACE  &lt 1 ENTER                               &kp RS(RG(NUMBER_3))
+&kp A               &kp S                 &kp D         &kp F           &kp G        &kp LC(Y)             &kp LG(C)            &kp H        &lt 5 J  &kp K      &lt 5 L  &kp MINUS
+&mt LEFT_CONTROL Z  &kp X                 &kp C         &kp V           &kp B        &kp LC(UP_ARROW)      &kp LG(V)            &kp N        &kp M    &kp COMMA  &kp DOT  &kp SLASH
+&kp TAB             &mt ESCAPE LC(SPACE)  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE  &kp LEFT_GUI          &mt RSHFT BACKSPACE  &lt 1 ENTER                               &kp RS(RG(NUMBER_3))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -43,10 +43,10 @@
 
         FUNCTION {
             bindings = <
-&bt BT_SEL 0   &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3          &trans                                                   &trans           &trans        &trans         &trans            &trans
-&kp AT_SIGN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans               &kp K_COPY   &kp EXCLAMATION  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN  &trans
-&kp HASH       &kp COLON         &kp SQT            &kp UNDER             &kp UP_ARROW           &trans               &kp K_PASTE  &kp K_PASTE      &trans        &trans         &trans            &trans
-&kp AMPERSAND  &kp PERCENT       &kp LEFT_SHIFT     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW      &trans       &trans                                                          &bt BT_CLR
+&bt BT_SEL 0   &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3          &trans                                                 &trans           &trans        &trans         &trans            &trans
+&kp AT_SIGN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans               &kp LG(C)  &kp EXCLAMATION  &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN  &trans
+&kp HASH       &kp COLON         &kp SQT            &kp UNDER             &kp UP_ARROW           &trans               &kp LG(V)  &trans           &trans        &trans         &trans            &trans
+&kp AMPERSAND  &kp PERCENT       &kp LEFT_SHIFT     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp RIGHT_ARROW      &trans     &trans                                                          &bt BT_CLR
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
@@ -54,10 +54,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &kp K_PLAY_PAUSE                       &kp N7        &kp N8        &kp N9        &kp PLUS    &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans            &trans      &trans   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &kp SLASH
-&trans  &trans  &trans  &trans  &trans            &trans      &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans            &trans      &kp DEL  &kp N0                                                &trans
+&trans  &trans  &trans  &trans  &kp K_PLAY_PAUSE                             &kp N7        &kp N8        &kp N9        &kp PLUS    &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans            &trans      &trans         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &kp SLASH
+&trans  &trans  &trans  &trans  &trans            &trans      &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
+&trans  &trans  &trans  &trans  &trans            &trans      &kp BACKSPACE  &kp N0                                                &trans
             >;
         };
 
